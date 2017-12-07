@@ -1,3 +1,7 @@
+---
+repo: 13_uy23_dec_07
+number: 13 
+---
 ### js dependancy
 if one file depend on other file, that other file should include first in html document
 
@@ -17,7 +21,7 @@ document.getElementById('fruit').innerHTML = html;
 ~~~
 
 
-### `querySelector` and `querySelector`
+### Select element using css selector using `querySelector` and `querySelector` function
 
 ~~~js
 //return string
@@ -25,6 +29,13 @@ document.querySelector('css_selector');
 
 //return array
 document.querySelectorAll('css_selector')
+~~~
+
+
+### js event listener
+
+~~~js
+element.addEventListener('event_name', fn);
 ~~~
 
 ### color change from js
@@ -41,10 +52,4 @@ function colorChange () {
   fruit.style.fontSize = '20px';
 }
 ~~~
-
-
-
-
-
-
 
