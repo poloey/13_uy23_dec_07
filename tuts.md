@@ -31,4 +31,20 @@ document.querySelectorAll('css_selector')
 ~~~js
 var button =  document.querySelector('button');
 button.addEventListener('click', colorChange);
+
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min; 
+}
+function colorChange () {
+  fruit.style.color = colors[getRandomInt(0, colors.length -1)];
+  fruit.style.fontFamily = 'sans-serif';
+  fruit.style.fontSize = '20px';
+}
 ~~~
+
+
+
+
+
+
+
